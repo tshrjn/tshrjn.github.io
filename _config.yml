@@ -3,7 +3,7 @@
 title: Tushar
 description: Tushar's blog, CV and projects.
 keywords: Tushar,Deep Learning, Machine Learning,blog,NYU,github,gh-pages
-baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+#baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://tshrjn.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
