@@ -2,7 +2,7 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/snow_munich.jpg
+- src: landing/snow_munich.jpeg
   title: Winter in Munich
 
 - src: landing/new_york_city.jpeg
