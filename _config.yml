@@ -13,17 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Athena Jekyll Theme
-description: A simple and elegant theme for Jekyll and GitHub Pages.
+title: Tushar Jain
+description: A swwet and simple intro & blog.
 # baseurl: "/athena" # the subpath of your site, e.g. /blog
-url: "http://broccolini.net" # the base hostname & protocol for your site
+url: "http://tshrjn.github.io" # the base hostname & protocol for your site
 github_repo: athena # the GitHub repo name for your project
 github_username: broccolini
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
-social_username: broccolini
+social_username: Tushar_Jain007
+
+# Set theme here
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
