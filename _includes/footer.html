@@ -1,13 +1,25 @@
-<div class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
-  <div class="border-top-thick">
-    <p class="col-8 sm-width-full left py-2 mb-0">This project is maintained by <a class="text-accent" href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
-    <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
-      <li class="inline-block mr-1">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="{{ site.title }}">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </li>
-      <li class="inline-block">
-        <a class="github-button" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}" data-icon="octicon-star" data-count-href="{{ site.github_username }}/{{ github_repo }}/stargazers" data-count-api="/repos/{{ site.github_username }}/{{ github_repo }}#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star {{ site.github_username }}/{{ github_repo }} on GitHub">Star</a>
-      </li>
-    </ul>
-  </div>
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+    {% if site.twitter.username %}
+      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    {% endif %}
+    {% if site.facebook.username %}
+      <li><a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.gitlab %}
+      <li><a href="https://gitlab.com/{{ site.author.gitlab }}"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a></li>
+    {% endif %}
+    {% if site.author.bitbucket %}
+      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% endif %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+  </ul>
 </div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
