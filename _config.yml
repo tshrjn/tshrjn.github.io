@@ -102,7 +102,7 @@ author:
   avatar           : "/assets/images/tj_min.jpeg"
   bio              : *description
   location         : "New York City"
-  email            :
+  email            : "tushar@nyu.edu"
   uri              : # TODO "https://mademistakes.com"
   home             : # TODO "https://mademistakes.com"
   bitbucket        :
