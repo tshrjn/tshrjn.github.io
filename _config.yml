@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "Tushar Jain"
 title_separator          : "-"
 name                     : &name "Tushar Jain" # &name is a YAML anchor which can be *referenced later
-description              : &description "Grad Student \n New York University"
+description              : &description "Grad Student <br> New York University"
 url                      : https://tshrjn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # "/" # the subpath of your site, e.g. "/blog"
 repository               : "tshrjn/tshrjn.github.io" # "mmistakes/minimal-mistakes"
@@ -204,19 +204,19 @@ kramdown:
 #     permalink: /:collection/:path/
 
 
-# # Defaults
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: posts
-#     values:
-#       layout: single
-#       author_profile: true
-#       read_time: true
-#       comments: true
-#       share: true
-#       related: true
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 #   # _pages
 #   - scope:
 #       path: "_pages"
