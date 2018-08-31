@@ -100,8 +100,8 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/tj_min.jpeg"
-  bio              : *designer
-  location         : "Buffalo, NY"
+  bio              : *description
+  location         : "New York City"
   email            :
   uri              : # TODO "https://mademistakes.com"
   home             : # TODO "https://mademistakes.com"
@@ -221,19 +221,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
-  # - scope:
-  #     path: ""
-  #     type: docs
-  #   values:
-  #     layout: single
-  #     read_time: false
-  #     author_profile: false
-  #     share: false
-  #     comments: false
-  #     sidebar:
-  #       nav: "docs"
-  # _recipes
+  _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  _recipes
   - scope:
       path: ""
       type: recipes
