@@ -28,14 +28,14 @@ Prior to NYU, I completed my bachelors at IIT, Mandi during which I also spent a
 - **Individualized Controlled Continuous Communication**  
 Amanpreet Singh<sup>*</sup>, Tushar Jain<sup>*</sup>, Sainbayar Sukhbaatar  
 _Currently in Proceedings of NIPS 2018_  
-[[Paper](ic3net)] [Code (Coming Soon)] [Blog (Coming Soon)]
+[[Paper][ic3net]] [Code (Coming Soon)] [Blog (Coming Soon)]
 
 
 ## Projects
 - **Question Generation**  
 _Rajat Agarwal<sup>*</sup>, Tushar Jain<sup>*</sup>, Kumar mehta_  
 Survey research project on question generation via machine comprehension and achieved SOTA results for the task using attention with seq-to-seq with beam search.  
-[[Report](qgen)]
+[[Report][qgen]]
 <!-- [Code] [Blog] -->
 
 
@@ -59,5 +59,5 @@ Multiple discriminators with varying architecture provided empirical speedup dur
 
 
 
-[ic3net]: (../assets/ic3net.pdf)
-[qgen]: (../assets/gqen.pdf)
+[ic3net]: ../assets/pdfs/ic3net.pdf
+[qgen]: ../assets/pdfs/gqen.pdf
