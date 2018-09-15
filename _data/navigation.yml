@@ -6,6 +6,9 @@ main:
     url: /about/
   - title: "Blog"
     url: /
+  - title: "Reads"
+    url: /reads/
+
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
