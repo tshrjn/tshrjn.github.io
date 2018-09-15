@@ -24,9 +24,9 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # TODO "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
+  provider               : disqus #"staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
   disqus:
-    shortname            :
+    shortname            : "tshrjn"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
