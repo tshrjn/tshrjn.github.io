@@ -8,6 +8,6 @@ layout: reads
 
 These are my personal Good Reads i.e. the articles I enjoyed reading shared via Workflowy.
 
-<iframe src="https://workflowy.com/s/En-J.TARQff9GNr" class="page__content" style="height:750px">
+<iframe src="https://dynalist.io/d/aTaXScDt1a-JGYw4qv_Kf7EZ" class="page__content" style="height:750px">
 </iframe>
 

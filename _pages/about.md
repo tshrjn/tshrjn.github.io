@@ -15,6 +15,7 @@ layouts_gallery:
 last_modified_at: 2018-08-04T12:04:24-04:00
 <!-- toc: true -->
 mathjax: true
+author_profile: true
 ---
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
