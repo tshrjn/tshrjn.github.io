@@ -3,7 +3,7 @@ title: "Curiosity-driven Exploration"
 excerpt: "Using error in Self-supervised Prediction to explore the world."
 
 categories:
-  - Topic Summary
+  - Paper Summary
 tags:
   - Reinforcement Learning
   - RL
