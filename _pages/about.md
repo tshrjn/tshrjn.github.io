@@ -29,7 +29,8 @@ Prior to NYU, I completed my bachelors at IIT, Mandi during which I also spent a
 - **Individualized Controlled Continuous Communication**  
 Amanpreet Singh<sup>*</sup>, Tushar Jain<sup>*</sup>, Sainbayar Sukhbaatar  
 _Currently in Proceedings of ICLR 2019_  
-[[Paper][ic3net]] [Code (Coming Soon)] [Blog (Coming Soon)]
+[[Paper][ic3net_arxiv]] [[Code][ic3net_github]]
+ <!-- [Blog (Coming Soon)] -->
 
 
 ## Projects
@@ -60,5 +61,7 @@ Multiple discriminators with varying architecture provided empirical speedup dur
 
 
 
+[ic3net_arxiv]: https://arxiv.org/abs/1812.09755
+[ic3net_github]: https://github.com/IC3Net/IC3Net
 [ic3net]: ../assets/pdfs/ic3net.pdf
-[qgen]: ../assets/pdfs/gqen.pdf
+[qgen]: ../assets/pdfs/qgen.pdf
