@@ -28,7 +28,7 @@ Prior to NYU, I completed my bachelors at IIT, Mandi during which I also spent a
 ## Publications
 - **Individualized Controlled Continuous Communication**  
 Amanpreet Singh<sup>*</sup>, Tushar Jain<sup>*</sup>, Sainbayar Sukhbaatar  
-_Currently in Proceedings of ICLR 2019_  
+_ICLR 2019_  
 [[Paper][ic3net_arxiv]] [[Code][ic3net_github]]
  <!-- [Blog (Coming Soon)] -->
 
