@@ -26,7 +26,7 @@ I’m a grad student at New York University and a member of CILVR Group. My rese
 Prior to NYU, I completed my bachelors at IIT, Mandi during which I also spent an year at Technical University, Munich (TUM).
 
 ## Publications
-- **Individualized Controlled Continuous Communication**  
+- **Learning When to Communicate**  
 Amanpreet Singh<sup>*</sup>, Tushar Jain<sup>*</sup>, Sainbayar Sukhbaatar  
 _ICLR 2019_  
 [[Paper][ic3net_arxiv]] [[Code][ic3net_github]]
@@ -35,7 +35,7 @@ _ICLR 2019_
 
 ## Projects
 - **Question Generation**  
-_Rajat Agarwal<sup>*</sup>, Tushar Jain<sup>*</sup>, Kumar mehta_  
+_Rajat Agarwal, Tushar Jain, Kumar Mehta_  
 Survey research project on question generation via machine comprehension and achieved SOTA results for the task using attention with seq-to-seq with beam search.  
 [[Report][qgen]]
 <!-- [Code] [Blog] -->
