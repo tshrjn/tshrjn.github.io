@@ -21,21 +21,32 @@ author_profile: true
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-I’m a grad student at New York University and a member of CILVR Group. My research interest lies in deep reinforcment learning and generative modelling.
+I’m a grad student at New York University and a member of CILVR Group. My research interest lies in deep reinforcment learning, unsupervised learning and natural language understanding.
 
 Prior to NYU, I completed my bachelors at IIT, Mandi during which I also spent an year at Technical University, Munich (TUM).
 
-## Publications
-- **Individualized Controlled Continuous Communication**  
+## Projects & Publications
+- **Learning When to Communicate**  
 Amanpreet Singh<sup>*</sup>, Tushar Jain<sup>*</sup>, Sainbayar Sukhbaatar  
 _ICLR 2019_  
 [[Paper][ic3net_arxiv]] [[Code][ic3net_github]]
  <!-- [Blog (Coming Soon)] -->
 
 
-## Projects
+- **Crosslingual Transfer for Inflection Generation**  
+_Tushar Jain, Katharina Kann_  
+Research on morphological generation in low resource cross-lingual settings.
+*WIP*
+
+
+- ****  
+_Tushar Jain, Shubham Chandel, Mikael Henaff, Yann LeCun_  
+Using model-based reinforcement learning in text-based games.
+*WIP*
+
+
 - **Question Generation**  
-_Rajat Agarwal<sup>*</sup>, Tushar Jain<sup>*</sup>, Kumar mehta_  
+_Rajat Agarwal, Tushar Jain, Kumar Mehta_  
 Survey research project on question generation via machine comprehension and achieved SOTA results for the task using attention with seq-to-seq with beam search.  
 [[Report][qgen]]
 <!-- [Code] [Blog] -->
