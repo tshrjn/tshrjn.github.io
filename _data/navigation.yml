@@ -5,9 +5,9 @@ main:
   - title: "About"
     url: /about/
   - title: "Blog"
-    url: /
-  - title: "Reads"
-    url: /reads/
+    url: /categories/
+  # - title: "Reads"
+    # url: /reads/
 
   # - title: "Sample Collections"
   #   url: /collection-archive/

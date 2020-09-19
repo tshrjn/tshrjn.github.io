@@ -3,15 +3,12 @@ title: "Curiosity-driven Exploration"
 excerpt: "Using error in Self-supervised Prediction to explore the world."
 
 categories:
-  - Paper Summary
+  - ML Blog
 tags:
-  - Reinforcement Learning
   - RL
   - "2018"
-  - Exploration
-  - AI
   - ML
-  - Summary
+  - Paper Summary
 
 toc: true
 mathjax: true
