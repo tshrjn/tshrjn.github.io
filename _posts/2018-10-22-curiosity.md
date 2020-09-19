@@ -29,19 +29,19 @@ Objective of Reinforcement Learning is to find an agent parameterised by $$\thet
 Mathematically, it can be shown as:
 
 $$
-\theta^* = arg \max_{\theta}  E_{\tau \sim p_{\theta}(\tau)}  [\sum_t r_t] 
+\theta^* = arg \max_{\theta}  E_{\tau \sim p_{\theta}(\tau)}  [\sum_t r_t]
 $$
 
 
 The reinforcement learning framework is usually represented as Markov Decision Process which is tuple of $$ \{S,A,T,r\} $$, where: <br>
 
 
-S: State Space  
-A: Action Space  
-T: Transition Operator  
-r: rewards  
+S: State Space
+A: Action Space
+T: Transition Operator
+r: rewards
 
-And this can pictured as:  
+And this can pictured as:
 
 {% include figure image_path="/assets/images/curiosity/MDP.png" alt="RL as MDP" caption="Reinforcement Learning as Markov Decision Process (MDP)." %}
 
@@ -68,8 +68,8 @@ r_t = r_t^i + r_t^e \\
 $$
 
 
-There are 2 broad classes of techniques to achieve this: 
-1. encourage the agent to explore “novel” states (Bellemare et al., 2016; Lopes et al., 2012; Poupart et al., 2006) or, 
+There are 2 broad classes of techniques to achieve this:
+1. encourage the agent to explore “novel” states (Bellemare et al., 2016; Lopes et al., 2012; Poupart et al., 2006) or,
 2.  encourage the agent to perform actions that reduce the error/uncertainty in the agent’s ability to predict the consequence of its own actions (i.e. its knowledge about the environment)
 
 
@@ -81,10 +81,10 @@ Curiosity falls in the category of "generate an intrinsic reward signal based on
 
 $$
 \hat{s}_{t+1} = f(s_t, a_t)  \\
-r^i_t = \eta \lVert \hat{s}_{t+1} - s_{t+1} \rVert_k 
+r^i_t = \eta \lVert \hat{s}_{t+1} - s_{t+1} \rVert_k
 $$
 
-However:  
+However:
 * It's very hard to predict in raw sensory state like pixels
 * Also, it's unclear if predicting the pixels is the right objective
 
@@ -121,20 +121,20 @@ This has 2 Sub-modules:
 
 This is equivalient to learning function $$g $$ (Inverse Dynamics Model)
 
-$$ 
+$$
 \hat{a}_t = g(s_t, s_{t+1}; \theta_I) \\
-\min_{\theta_I} L_I(\hat{a_t}, a_t) 
+\min_{\theta_I} L_I(\hat{a_t}, a_t)
 $$
 
 ### Forward Model
 
-$$ 
+$$
 \hat{\phi}(s_{t+1}) = f(\phi(s_t), a_t; \theta_{F}) \\
 L_F (\phi(s_{t+1}), \hat{\phi}(s_{t+1})) = \frac{1}{2} \lVert \phi(s_{t+1}) - \hat{\phi}(s_{t+1}) \rVert^2_2 \\
 r_t^i = \frac{\eta}{2} \lVert \phi(s_{t+1}) - \hat{\phi}(s_{t+1}) \rVert^2_2
 $$
 
-* Jointly Optimise $$I$$ and $$F$$  
+* Jointly Optimise $$I$$ and $$F$$
 * As there is no incentive for this feature space to encode any environmental features that are not influenced by the agent’s actions, our agent will receive no rewards for reaching environmental states that are inherently unpredictable and its exploration strategy will be robust to the presence of distractor objects, changes in illumination, or other nuisance sources of variation in the environment.
 
 ## Roles of Curiosity

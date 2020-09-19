@@ -116,7 +116,7 @@ author:
   github           : "tshrjn"
   gitlab           :
   google_plus      :
-  keybase          : 
+  keybase          :
   instagram        : # TODO "mmistakes"
   lastfm           :
   linkedin         : "tushar-jain"
@@ -160,8 +160,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs   
-  - /test # ignore Minimal Mistakes /test   
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 
 keep_files:
   - .git
@@ -214,7 +214,7 @@ defaults:
       type: posts
     values:
       layout: single
-      # author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -225,7 +225,7 @@ defaults:
       type: pages
     values:
       layout: single
-      # author_profile: true
+      author_profile: false
 #   _docs
 #   - scope:
 #       path: ""

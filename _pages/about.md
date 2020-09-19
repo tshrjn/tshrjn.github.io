@@ -26,48 +26,48 @@ I’m a grad student at New York University and a member of CILVR Group. My rese
 Prior to NYU, I completed my bachelors at IIT, Mandi during which I also spent an year at Technical University, Munich (TUM).
 
 ## Projects & Publications
-- **Learning When to Communicate**  
-Amanpreet Singh<sup>*</sup>, Tushar Jain<sup>*</sup>, Sainbayar Sukhbaatar  
-_ICLR 2019_  
+- **Learning When to Communicate**
+Amanpreet Singh<sup>*</sup>, Tushar Jain<sup>*</sup>, Sainbayar Sukhbaatar
+_ICLR 2019_
 [[Paper][ic3net_arxiv]] [[Code][ic3net_github]]
  <!-- [Blog (Coming Soon)] -->
 
 
-- **Crosslingual Transfer for Inflection Generation**  
-_Tushar Jain, Katharina Kann_  
+- **Crosslingual Transfer for Inflection Generation**
+_Tushar Jain, Katharina Kann_
 Research on morphological generation in low resource cross-lingual settings.
 *WIP*
 
 
-- ****  
-_Tushar Jain, Shubham Chandel, Mikael Henaff, Yann LeCun_  
+- ****
+_Tushar Jain, Shubham Chandel, Mikael Henaff, Yann LeCun_
 Using model-based reinforcement learning in text-based games.
 *WIP*
 
 
-- **Question Generation**  
-_Rajat Agarwal, Tushar Jain, Kumar Mehta_  
-Survey research project on question generation via machine comprehension and achieved SOTA results for the task using attention with seq-to-seq with beam search.  
+- **Question Generation**
+_Rajat Agarwal, Tushar Jain, Kumar Mehta_
+Survey research project on question generation via machine comprehension and achieved SOTA results for the task using attention with seq-to-seq with beam search.
 [[Report][qgen]]
 <!-- [Code] [Blog] -->
 
 
-- **Generative Adversarial Imitation Learning**  
-_Under Prof. Rob Fergus_  
-Research on imitation learning using generative model. Designed a novel method for using GANs as environment simulator for model-based Reinforcement Learning.  
+- **Generative Adversarial Imitation Learning**
+_Under Prof. Rob Fergus_
+Research on imitation learning using generative model. Designed a novel method for using GANs as environment simulator for model-based Reinforcement Learning.
 <!--[Report] [Code] [Blog] -->
 
 
-- **Genomics Trait & Disease Prediction**  
-_Under Prof. Lawrence Sirovich_  
-Research on genomics data (GWAS), where #input-features $$ \gg $$ #training-examples, making it difficult to avoid overfitting, for disease prediction on SNPs.  
+- **Genomics Trait & Disease Prediction**
+_Under Prof. Lawrence Sirovich_
+Research on genomics data (GWAS), where #input-features $$ \gg $$ #training-examples, making it difficult to avoid overfitting, for disease prediction on SNPs.
 <!--[Paper] [Code] [Blog] -->
 
 
-- **Biometric Data Synthesis Using GAN**  
-_Under Prof. Aditya Nigam_  
+- **Biometric Data Synthesis Using GAN**
+_Under Prof. Aditya Nigam_
 Research on using multiple generators and discriminators to speed-up GAN training.
-Multiple discriminators with varying architecture provided empirical speedup during training time.  
+Multiple discriminators with varying architecture provided empirical speedup during training time.
 <!--[Paper] [Code] [Blog] -->
 
 
